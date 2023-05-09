@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6031AF7-99D5-44BF-8DE2-9C7CF492337F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HomeWorkAll</RootNamespace>
+    <AssemblyName>HomeWorkAll</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HomeWork03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeWork03.Designer.cs">
+      <DependentUpon>HomeWork03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeWork02_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeWork02_Report.Designer.cs">
+      <DependentUpon>HomeWork02_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeWork02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeWork02.Designer.cs">
+      <DependentUpon>HomeWork02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeWork01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeWork01.Designer.cs">
+      <DependentUpon>HomeWork01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeWork04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeWork04.Designer.cs">
+      <DependentUpon>HomeWork04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homeworkall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homeworkall.Designer.cs">
+      <DependentUpon>Homeworkall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HomeWork01.resx">
+      <DependentUpon>HomeWork01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeWork02.resx">
+      <DependentUpon>HomeWork02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeWork02_Report.resx">
+      <DependentUpon>HomeWork02_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeWork03.resx">
+      <DependentUpon>HomeWork03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeWork04.resx">
+      <DependentUpon>HomeWork04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homeworkall.resx">
+      <DependentUpon>Homeworkall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
