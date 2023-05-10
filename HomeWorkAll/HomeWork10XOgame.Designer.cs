@@ -47,9 +47,10 @@
             this.btnXO09.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO09.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO09.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO09.Location = new System.Drawing.Point(308, 288);
+            this.btnXO09.Location = new System.Drawing.Point(411, 360);
+            this.btnXO09.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO09.Name = "btnXO09";
-            this.btnXO09.Size = new System.Drawing.Size(84, 83);
+            this.btnXO09.Size = new System.Drawing.Size(112, 104);
             this.btnXO09.TabIndex = 33;
             this.btnXO09.UseVisualStyleBackColor = false;
             this.btnXO09.Click += new System.EventHandler(this.btnXO09_Click);
@@ -59,9 +60,10 @@
             this.btnXO08.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO08.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO08.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO08.Location = new System.Drawing.Point(308, 199);
+            this.btnXO08.Location = new System.Drawing.Point(411, 249);
+            this.btnXO08.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO08.Name = "btnXO08";
-            this.btnXO08.Size = new System.Drawing.Size(84, 83);
+            this.btnXO08.Size = new System.Drawing.Size(112, 104);
             this.btnXO08.TabIndex = 32;
             this.btnXO08.UseVisualStyleBackColor = false;
             this.btnXO08.Click += new System.EventHandler(this.btnXO08_Click);
@@ -71,9 +73,10 @@
             this.btnXO06.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO06.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO06.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO06.Location = new System.Drawing.Point(206, 288);
+            this.btnXO06.Location = new System.Drawing.Point(275, 360);
+            this.btnXO06.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO06.Name = "btnXO06";
-            this.btnXO06.Size = new System.Drawing.Size(84, 83);
+            this.btnXO06.Size = new System.Drawing.Size(112, 104);
             this.btnXO06.TabIndex = 31;
             this.btnXO06.UseVisualStyleBackColor = false;
             this.btnXO06.Click += new System.EventHandler(this.btnXO06_Click);
@@ -83,9 +86,10 @@
             this.btnXO07.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO07.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO07.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO07.Location = new System.Drawing.Point(308, 110);
+            this.btnXO07.Location = new System.Drawing.Point(411, 138);
+            this.btnXO07.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO07.Name = "btnXO07";
-            this.btnXO07.Size = new System.Drawing.Size(84, 83);
+            this.btnXO07.Size = new System.Drawing.Size(112, 104);
             this.btnXO07.TabIndex = 30;
             this.btnXO07.UseVisualStyleBackColor = false;
             this.btnXO07.Click += new System.EventHandler(this.btnXO07_Click);
@@ -95,9 +99,10 @@
             this.btnXO04.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO04.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO04.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO04.Location = new System.Drawing.Point(206, 110);
+            this.btnXO04.Location = new System.Drawing.Point(275, 138);
+            this.btnXO04.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO04.Name = "btnXO04";
-            this.btnXO04.Size = new System.Drawing.Size(84, 83);
+            this.btnXO04.Size = new System.Drawing.Size(112, 104);
             this.btnXO04.TabIndex = 29;
             this.btnXO04.UseVisualStyleBackColor = false;
             this.btnXO04.Click += new System.EventHandler(this.btnXO04_Click);
@@ -107,9 +112,10 @@
             this.btnXO05.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO05.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO05.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO05.Location = new System.Drawing.Point(206, 199);
+            this.btnXO05.Location = new System.Drawing.Point(275, 249);
+            this.btnXO05.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO05.Name = "btnXO05";
-            this.btnXO05.Size = new System.Drawing.Size(84, 83);
+            this.btnXO05.Size = new System.Drawing.Size(112, 104);
             this.btnXO05.TabIndex = 28;
             this.btnXO05.UseVisualStyleBackColor = false;
             this.btnXO05.Click += new System.EventHandler(this.btnXO05_Click);
@@ -119,9 +125,10 @@
             this.btnXO03.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO03.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO03.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO03.Location = new System.Drawing.Point(106, 288);
+            this.btnXO03.Location = new System.Drawing.Point(141, 360);
+            this.btnXO03.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO03.Name = "btnXO03";
-            this.btnXO03.Size = new System.Drawing.Size(84, 83);
+            this.btnXO03.Size = new System.Drawing.Size(112, 104);
             this.btnXO03.TabIndex = 27;
             this.btnXO03.UseVisualStyleBackColor = false;
             this.btnXO03.Click += new System.EventHandler(this.btnXO03_Click);
@@ -131,9 +138,10 @@
             this.btnXO02.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO02.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO02.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO02.Location = new System.Drawing.Point(106, 199);
+            this.btnXO02.Location = new System.Drawing.Point(141, 249);
+            this.btnXO02.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO02.Name = "btnXO02";
-            this.btnXO02.Size = new System.Drawing.Size(84, 83);
+            this.btnXO02.Size = new System.Drawing.Size(112, 104);
             this.btnXO02.TabIndex = 26;
             this.btnXO02.UseVisualStyleBackColor = false;
             this.btnXO02.Click += new System.EventHandler(this.btnXO02_Click);
@@ -143,9 +151,10 @@
             this.btnXO01.BackColor = System.Drawing.Color.SandyBrown;
             this.btnXO01.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnXO01.ForeColor = System.Drawing.Color.PeachPuff;
-            this.btnXO01.Location = new System.Drawing.Point(106, 110);
+            this.btnXO01.Location = new System.Drawing.Point(141, 138);
+            this.btnXO01.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXO01.Name = "btnXO01";
-            this.btnXO01.Size = new System.Drawing.Size(84, 83);
+            this.btnXO01.Size = new System.Drawing.Size(112, 104);
             this.btnXO01.TabIndex = 25;
             this.btnXO01.UseVisualStyleBackColor = false;
             this.btnXO01.Click += new System.EventHandler(this.btnXO01_Click);
@@ -153,10 +162,10 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnExit.Location = new System.Drawing.Point(308, 408);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExit.Location = new System.Drawing.Point(411, 510);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(169, 45);
+            this.btnExit.Size = new System.Drawing.Size(225, 56);
             this.btnExit.TabIndex = 24;
             this.btnExit.Text = "Exit(Esc)";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -165,10 +174,10 @@
             // btnReset
             // 
             this.btnReset.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnReset.Location = new System.Drawing.Point(68, 408);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReset.Location = new System.Drawing.Point(91, 510);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(169, 45);
+            this.btnReset.Size = new System.Drawing.Size(225, 56);
             this.btnReset.TabIndex = 23;
             this.btnReset.Text = "Reset(R)";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -178,18 +187,19 @@
             // 
             this.labAnswer.AutoSize = true;
             this.labAnswer.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labAnswer.Location = new System.Drawing.Point(171, 47);
+            this.labAnswer.Location = new System.Drawing.Point(228, 59);
+            this.labAnswer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labAnswer.Name = "labAnswer";
-            this.labAnswer.Size = new System.Drawing.Size(169, 37);
+            this.labAnswer.Size = new System.Drawing.Size(215, 47);
             this.labAnswer.TabIndex = 22;
             this.labAnswer.Text = "X  O GAME";
             // 
             // HomeWork10XOgame
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PapayaWhip;
-            this.ClientSize = new System.Drawing.Size(549, 516);
+            this.ClientSize = new System.Drawing.Size(732, 645);
             this.Controls.Add(this.btnXO09);
             this.Controls.Add(this.btnXO08);
             this.Controls.Add(this.btnXO06);
@@ -203,8 +213,9 @@
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.labAnswer);
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomeWork10XOgame";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "HomeWork10XOgame";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HomeWork10XOgame_KeyDown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.HomeWork10XOgame_KeyPress);

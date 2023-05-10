@@ -213,7 +213,7 @@ namespace HomeWorkAll
         {
             this.Controls.Clear();
             InitializeComponent();
-            bool xo = true;
+ 
             for (int i = 0; i < num.GetLength(0); i++)
             {
                 for (int j = 0; j < num.GetLength(1); j++)

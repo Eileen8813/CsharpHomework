@@ -17,7 +17,7 @@ namespace HomeWorkAll
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomeWorkMajor() ); /*HWAlarm*/
+            Application.Run(new HomeWorkMajor() );
         }
     }
 }

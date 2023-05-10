@@ -327,6 +327,7 @@
             this.Controls.Add(this.labNumber);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomeWork09";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "HomeWork09";
             this.ResumeLayout(false);
             this.PerformLayout();

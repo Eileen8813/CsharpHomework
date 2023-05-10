@@ -44,11 +44,13 @@
             this.bntHomework04 = new System.Windows.Forms.Button();
             this.bntHomework03 = new System.Windows.Forms.Button();
             this.splitTopBottom = new System.Windows.Forms.SplitContainer();
+            this.labLocation = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitleftright)).BeginInit();
             this.splitleftright.Panel1.SuspendLayout();
             this.splitleftright.Panel2.SuspendLayout();
             this.splitleftright.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitTopBottom)).BeginInit();
+            this.splitTopBottom.Panel2.SuspendLayout();
             this.splitTopBottom.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,6 +100,7 @@
             // 
             // splitleftright.Panel1
             // 
+            this.splitleftright.Panel1.AutoScroll = true;
             this.splitleftright.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitleftright.Panel1.BackgroundImage")));
             this.splitleftright.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitleftright.Panel1.Controls.Add(this.btnAlarm);
@@ -113,16 +116,18 @@
             this.splitleftright.Panel1.Controls.Add(this.btnHomework01);
             this.splitleftright.Panel1.Controls.Add(this.labTitle);
             this.splitleftright.Panel1.Controls.Add(this.bntHomework02);
+            this.splitleftright.Panel1.Cursor = System.Windows.Forms.Cursors.Hand;
             // 
             // splitleftright.Panel2
             // 
             this.splitleftright.Panel2.Controls.Add(this.splitTopBottom);
-            this.splitleftright.Size = new System.Drawing.Size(1061, 606);
-            this.splitleftright.SplitterDistance = 328;
+            this.splitleftright.Size = new System.Drawing.Size(1060, 610);
+            this.splitleftright.SplitterDistance = 327;
             this.splitleftright.TabIndex = 6;
             // 
             // btnAlarm
             // 
+            this.btnAlarm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAlarm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(209)))), ((int)(((byte)(166)))));
             this.btnAlarm.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnAlarm.Location = new System.Drawing.Point(118, 530);
@@ -136,6 +141,7 @@
             // 
             // btnScreen
             // 
+            this.btnScreen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnScreen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(209)))), ((int)(((byte)(166)))));
             this.btnScreen.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnScreen.Location = new System.Drawing.Point(235, 458);
@@ -149,12 +155,13 @@
             // 
             // bntHomework10
             // 
+            this.bntHomework10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.bntHomework10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(209)))), ((int)(((byte)(166)))));
             this.bntHomework10.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.bntHomework10.Location = new System.Drawing.Point(10, 525);
+            this.bntHomework10.Location = new System.Drawing.Point(3, 525);
             this.bntHomework10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bntHomework10.Name = "bntHomework10";
-            this.bntHomework10.Size = new System.Drawing.Size(102, 46);
+            this.bntHomework10.Size = new System.Drawing.Size(112, 46);
             this.bntHomework10.TabIndex = 10;
             this.bntHomework10.Text = "作業10";
             this.bntHomework10.UseVisualStyleBackColor = false;
@@ -188,6 +195,7 @@
             // 
             // bntBullsCowws
             // 
+            this.bntBullsCowws.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.bntBullsCowws.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(209)))), ((int)(((byte)(166)))));
             this.bntBullsCowws.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.bntBullsCowws.Location = new System.Drawing.Point(219, 538);
@@ -268,24 +276,38 @@
             // 
             this.splitTopBottom.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitTopBottom.Panel2.BackgroundImage")));
             this.splitTopBottom.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.splitTopBottom.Size = new System.Drawing.Size(729, 606);
+            this.splitTopBottom.Panel2.Controls.Add(this.labLocation);
+            this.splitTopBottom.Size = new System.Drawing.Size(729, 610);
             this.splitTopBottom.SplitterDistance = 121;
             this.splitTopBottom.TabIndex = 0;
+            // 
+            // labLocation
+            // 
+            this.labLocation.AutoSize = true;
+            this.labLocation.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labLocation.Location = new System.Drawing.Point(0, 0);
+            this.labLocation.Name = "labLocation";
+            this.labLocation.Size = new System.Drawing.Size(0, 15);
+            this.labLocation.TabIndex = 0;
             // 
             // HomeWorkMajor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1061, 606);
+            this.ClientSize = new System.Drawing.Size(1060, 610);
             this.Controls.Add(this.splitleftright);
+            this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomeWorkMajor";
             this.Text = "Homework主畫面";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.splitleftright.Panel1.ResumeLayout(false);
             this.splitleftright.Panel1.PerformLayout();
             this.splitleftright.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitleftright)).EndInit();
             this.splitleftright.ResumeLayout(false);
+            this.splitTopBottom.Panel2.ResumeLayout(false);
+            this.splitTopBottom.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitTopBottom)).EndInit();
             this.splitTopBottom.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -309,6 +331,7 @@
         private System.Windows.Forms.Button bntHomework03;
         private System.Windows.Forms.Button btnAlarm;
         private System.Windows.Forms.Button btnScreen;
+        private System.Windows.Forms.Label labLocation;
     }
 }
 

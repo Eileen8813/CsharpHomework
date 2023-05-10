@@ -233,6 +233,7 @@
             this.Controls.Add(this.gbMenu);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomeWork03";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Drink Bar!";
             this.gbMenu.ResumeLayout(false);
             this.gbList.ResumeLayout(false);

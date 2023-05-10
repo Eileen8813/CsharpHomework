@@ -53,10 +53,10 @@
             // txtMath
             // 
             this.txtMath.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtMath.Location = new System.Drawing.Point(117, 152);
-            this.txtMath.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMath.Location = new System.Drawing.Point(156, 190);
+            this.txtMath.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMath.Name = "txtMath";
-            this.txtMath.Size = new System.Drawing.Size(126, 36);
+            this.txtMath.Size = new System.Drawing.Size(167, 43);
             this.txtMath.TabIndex = 15;
             this.txtMath.Text = "0";
             this.txtMath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -64,10 +64,10 @@
             // txtEn
             // 
             this.txtEn.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtEn.Location = new System.Drawing.Point(117, 108);
-            this.txtEn.Margin = new System.Windows.Forms.Padding(2);
+            this.txtEn.Location = new System.Drawing.Point(156, 135);
+            this.txtEn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEn.Name = "txtEn";
-            this.txtEn.Size = new System.Drawing.Size(126, 36);
+            this.txtEn.Size = new System.Drawing.Size(167, 43);
             this.txtEn.TabIndex = 14;
             this.txtEn.Text = "0";
             this.txtEn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -75,10 +75,10 @@
             // txtCh
             // 
             this.txtCh.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtCh.Location = new System.Drawing.Point(117, 66);
-            this.txtCh.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCh.Location = new System.Drawing.Point(156, 82);
+            this.txtCh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCh.Name = "txtCh";
-            this.txtCh.Size = new System.Drawing.Size(126, 36);
+            this.txtCh.Size = new System.Drawing.Size(167, 43);
             this.txtCh.TabIndex = 13;
             this.txtCh.Text = "0";
             this.txtCh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -86,10 +86,10 @@
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtName.Location = new System.Drawing.Point(117, 24);
-            this.txtName.Margin = new System.Windows.Forms.Padding(2);
+            this.txtName.Location = new System.Drawing.Point(156, 30);
+            this.txtName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(126, 36);
+            this.txtName.Size = new System.Drawing.Size(167, 43);
             this.txtName.TabIndex = 12;
             this.txtName.Text = "0";
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -98,10 +98,9 @@
             // 
             this.labMath.AutoSize = true;
             this.labMath.Font = new System.Drawing.Font("微軟正黑體", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labMath.Location = new System.Drawing.Point(27, 152);
-            this.labMath.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labMath.Location = new System.Drawing.Point(36, 190);
             this.labMath.Name = "labMath";
-            this.labMath.Size = new System.Drawing.Size(76, 35);
+            this.labMath.Size = new System.Drawing.Size(96, 43);
             this.labMath.TabIndex = 11;
             this.labMath.Text = "數學:";
             // 
@@ -109,10 +108,9 @@
             // 
             this.labEn.AutoSize = true;
             this.labEn.Font = new System.Drawing.Font("微軟正黑體", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labEn.Location = new System.Drawing.Point(27, 108);
-            this.labEn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labEn.Location = new System.Drawing.Point(36, 135);
             this.labEn.Name = "labEn";
-            this.labEn.Size = new System.Drawing.Size(76, 35);
+            this.labEn.Size = new System.Drawing.Size(96, 43);
             this.labEn.TabIndex = 10;
             this.labEn.Text = "英文:";
             // 
@@ -120,10 +118,9 @@
             // 
             this.labCh.AutoSize = true;
             this.labCh.Font = new System.Drawing.Font("微軟正黑體", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labCh.Location = new System.Drawing.Point(27, 66);
-            this.labCh.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labCh.Location = new System.Drawing.Point(36, 82);
             this.labCh.Name = "labCh";
-            this.labCh.Size = new System.Drawing.Size(76, 35);
+            this.labCh.Size = new System.Drawing.Size(96, 43);
             this.labCh.TabIndex = 9;
             this.labCh.Text = "國文:";
             // 
@@ -131,19 +128,19 @@
             // 
             this.labName.AutoSize = true;
             this.labName.Font = new System.Drawing.Font("微軟正黑體", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labName.Location = new System.Drawing.Point(27, 21);
-            this.labName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labName.Location = new System.Drawing.Point(36, 26);
             this.labName.Name = "labName";
-            this.labName.Size = new System.Drawing.Size(76, 35);
+            this.labName.Size = new System.Drawing.Size(96, 43);
             this.labName.TabIndex = 8;
             this.labName.Text = "姓名:";
             // 
             // btnJoinScore
             // 
             this.btnJoinScore.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnJoinScore.Location = new System.Drawing.Point(42, 206);
+            this.btnJoinScore.Location = new System.Drawing.Point(56, 258);
+            this.btnJoinScore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnJoinScore.Name = "btnJoinScore";
-            this.btnJoinScore.Size = new System.Drawing.Size(169, 42);
+            this.btnJoinScore.Size = new System.Drawing.Size(225, 52);
             this.btnJoinScore.TabIndex = 16;
             this.btnJoinScore.Text = "加入學生資料";
             this.btnJoinScore.UseVisualStyleBackColor = true;
@@ -152,9 +149,10 @@
             // btnJoin
             // 
             this.btnJoin.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnJoin.Location = new System.Drawing.Point(42, 265);
+            this.btnJoin.Location = new System.Drawing.Point(56, 331);
+            this.btnJoin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnJoin.Name = "btnJoin";
-            this.btnJoin.Size = new System.Drawing.Size(169, 42);
+            this.btnJoin.Size = new System.Drawing.Size(225, 52);
             this.btnJoin.TabIndex = 17;
             this.btnJoin.Text = "隨機儲存資料";
             this.btnJoin.UseVisualStyleBackColor = true;
@@ -163,9 +161,10 @@
             // btnRandom20
             // 
             this.btnRandom20.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnRandom20.Location = new System.Drawing.Point(33, 496);
+            this.btnRandom20.Location = new System.Drawing.Point(44, 620);
+            this.btnRandom20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRandom20.Name = "btnRandom20";
-            this.btnRandom20.Size = new System.Drawing.Size(188, 48);
+            this.btnRandom20.Size = new System.Drawing.Size(251, 60);
             this.btnRandom20.TabIndex = 18;
             this.btnRandom20.Text = "隨機加入20筆";
             this.btnRandom20.UseVisualStyleBackColor = true;
@@ -174,9 +173,10 @@
             // btnReset
             // 
             this.btnReset.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnReset.Location = new System.Drawing.Point(42, 429);
+            this.btnReset.Location = new System.Drawing.Point(56, 536);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(167, 48);
+            this.btnReset.Size = new System.Drawing.Size(223, 60);
             this.btnReset.TabIndex = 19;
             this.btnReset.Text = "重設所有資料";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -185,9 +185,10 @@
             // btnStatic
             // 
             this.btnStatic.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnStatic.Location = new System.Drawing.Point(42, 326);
+            this.btnStatic.Location = new System.Drawing.Point(56, 408);
+            this.btnStatic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStatic.Name = "btnStatic";
-            this.btnStatic.Size = new System.Drawing.Size(169, 42);
+            this.btnStatic.Size = new System.Drawing.Size(225, 52);
             this.btnStatic.TabIndex = 20;
             this.btnStatic.Text = "各科統計";
             this.btnStatic.UseVisualStyleBackColor = true;
@@ -196,7 +197,8 @@
             // splitC1
             // 
             this.splitC1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.splitC1.Location = new System.Drawing.Point(267, 33);
+            this.splitC1.Location = new System.Drawing.Point(356, 41);
+            this.splitC1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitC1.Name = "splitC1";
             this.splitC1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -209,8 +211,9 @@
             // splitC1.Panel2
             // 
             this.splitC1.Panel2.Controls.Add(this.rtbStatistic);
-            this.splitC1.Size = new System.Drawing.Size(653, 519);
-            this.splitC1.SplitterDistance = 297;
+            this.splitC1.Size = new System.Drawing.Size(871, 649);
+            this.splitC1.SplitterDistance = 371;
+            this.splitC1.SplitterWidth = 5;
             this.splitC1.TabIndex = 23;
             // 
             // rtbShow
@@ -220,10 +223,10 @@
             this.rtbShow.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtbShow.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rtbShow.Location = new System.Drawing.Point(1, 1);
-            this.rtbShow.Margin = new System.Windows.Forms.Padding(2);
+            this.rtbShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rtbShow.Name = "rtbShow";
             this.rtbShow.ReadOnly = true;
-            this.rtbShow.Size = new System.Drawing.Size(647, 291);
+            this.rtbShow.Size = new System.Drawing.Size(865, 365);
             this.rtbShow.TabIndex = 22;
             this.rtbShow.Text = "";
             // 
@@ -232,19 +235,19 @@
             this.rtbStatistic.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtbStatistic.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rtbStatistic.Location = new System.Drawing.Point(0, 0);
-            this.rtbStatistic.Margin = new System.Windows.Forms.Padding(2);
+            this.rtbStatistic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rtbStatistic.Name = "rtbStatistic";
             this.rtbStatistic.ReadOnly = true;
             this.rtbStatistic.ShowSelectionMargin = true;
-            this.rtbStatistic.Size = new System.Drawing.Size(649, 214);
+            this.rtbStatistic.Size = new System.Drawing.Size(867, 269);
             this.rtbStatistic.TabIndex = 23;
             this.rtbStatistic.Text = "";
             // 
             // HomeWork05
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(952, 574);
+            this.ClientSize = new System.Drawing.Size(1269, 718);
             this.Controls.Add(this.splitC1);
             this.Controls.Add(this.btnStatic);
             this.Controls.Add(this.btnReset);
@@ -259,7 +262,9 @@
             this.Controls.Add(this.labEn);
             this.Controls.Add(this.labCh);
             this.Controls.Add(this.labName);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomeWork05";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "HomeWork05";
             this.splitC1.Panel1.ResumeLayout(false);
             this.splitC1.Panel1.PerformLayout();

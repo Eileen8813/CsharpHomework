@@ -1,4 +1,7 @@
-﻿namespace HomeWorkAll
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace HomeWorkAll
 {
     partial class HomeWork01
     {
@@ -159,6 +162,7 @@
             this.Controls.Add(this.labNameEN);
             this.Controls.Add(this.labName);
             this.Name = "HomeWork01";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "作業一: Hello!C#";
             this.ResumeLayout(false);
             this.PerformLayout();

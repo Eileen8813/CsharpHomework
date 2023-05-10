@@ -45,9 +45,11 @@
             this.gbSetTime.Controls.Add(this.txtTime);
             this.gbSetTime.Controls.Add(this.labAlarm);
             this.gbSetTime.Font = new System.Drawing.Font("新細明體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.gbSetTime.Location = new System.Drawing.Point(60, 69);
+            this.gbSetTime.Location = new System.Drawing.Point(80, 86);
+            this.gbSetTime.Margin = new System.Windows.Forms.Padding(4);
             this.gbSetTime.Name = "gbSetTime";
-            this.gbSetTime.Size = new System.Drawing.Size(349, 216);
+            this.gbSetTime.Padding = new System.Windows.Forms.Padding(4);
+            this.gbSetTime.Size = new System.Drawing.Size(465, 270);
             this.gbSetTime.TabIndex = 3;
             this.gbSetTime.TabStop = false;
             this.gbSetTime.Text = "設定鬧鐘時間";
@@ -56,9 +58,10 @@
             // 
             this.cbSet.AutoSize = true;
             this.cbSet.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.cbSet.Location = new System.Drawing.Point(94, 155);
+            this.cbSet.Location = new System.Drawing.Point(125, 194);
+            this.cbSet.Margin = new System.Windows.Forms.Padding(4);
             this.cbSet.Name = "cbSet";
-            this.cbSet.Size = new System.Drawing.Size(142, 34);
+            this.cbSet.Size = new System.Drawing.Size(176, 42);
             this.cbSet.TabIndex = 4;
             this.cbSet.Text = "Set Alarm";
             this.cbSet.UseVisualStyleBackColor = true;
@@ -66,9 +69,10 @@
             // 
             // txtTime
             // 
-            this.txtTime.Location = new System.Drawing.Point(100, 95);
+            this.txtTime.Location = new System.Drawing.Point(133, 119);
+            this.txtTime.Margin = new System.Windows.Forms.Padding(4);
             this.txtTime.Name = "txtTime";
-            this.txtTime.Size = new System.Drawing.Size(127, 30);
+            this.txtTime.Size = new System.Drawing.Size(168, 36);
             this.txtTime.TabIndex = 3;
             this.txtTime.Text = "  時  分  秒";
             this.txtTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -77,9 +81,10 @@
             // 
             this.labAlarm.AutoSize = true;
             this.labAlarm.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labAlarm.Location = new System.Drawing.Point(95, 44);
+            this.labAlarm.Location = new System.Drawing.Point(127, 55);
+            this.labAlarm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labAlarm.Name = "labAlarm";
-            this.labAlarm.Size = new System.Drawing.Size(141, 30);
+            this.labAlarm.Size = new System.Drawing.Size(179, 38);
             this.labAlarm.TabIndex = 2;
             this.labAlarm.Text = "Alarm Time";
             // 
@@ -91,26 +96,29 @@
             // 
             this.labShowTime.AutoSize = true;
             this.labShowTime.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labShowTime.Location = new System.Drawing.Point(185, 26);
+            this.labShowTime.Location = new System.Drawing.Point(247, 32);
+            this.labShowTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labShowTime.Name = "labShowTime";
-            this.labShowTime.Size = new System.Drawing.Size(61, 30);
+            this.labShowTime.Size = new System.Drawing.Size(77, 38);
             this.labShowTime.TabIndex = 2;
             this.labShowTime.Text = "時間";
             // 
             // timerEnd
             // 
-            this.timerEnd.Interval = 1000;
+            this.timerEnd.Interval = 500;
             this.timerEnd.Tick += new System.EventHandler(this.timerEnd_Tick);
             // 
             // HWAlarm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(488, 322);
+            this.ClientSize = new System.Drawing.Size(651, 402);
             this.Controls.Add(this.gbSetTime);
             this.Controls.Add(this.labShowTime);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "HWAlarm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Alarm";
             this.gbSetTime.ResumeLayout(false);
             this.gbSetTime.PerformLayout();

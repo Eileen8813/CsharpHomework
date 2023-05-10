@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-
             this.labTitle = new System.Windows.Forms.Label();
             this.btnGuess = new System.Windows.Forms.Button();
             this.btnAnswer = new System.Windows.Forms.Button();
@@ -38,20 +37,19 @@
             // 
             this.labTitle.AutoSize = true;
             this.labTitle.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labTitle.Location = new System.Drawing.Point(62, 54);
-            this.labTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labTitle.Location = new System.Drawing.Point(83, 68);
             this.labTitle.Name = "labTitle";
-            this.labTitle.Size = new System.Drawing.Size(511, 31);
+            this.labTitle.Size = new System.Drawing.Size(643, 38);
             this.labTitle.TabIndex = 1;
             this.labTitle.Text = "Please Select A Number Between 1 To 100!";
             // 
             // btnGuess
             // 
             this.btnGuess.Font = new System.Drawing.Font("微軟正黑體", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnGuess.Location = new System.Drawing.Point(84, 156);
-            this.btnGuess.Margin = new System.Windows.Forms.Padding(2);
+            this.btnGuess.Location = new System.Drawing.Point(112, 195);
+            this.btnGuess.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGuess.Name = "btnGuess";
-            this.btnGuess.Size = new System.Drawing.Size(176, 50);
+            this.btnGuess.Size = new System.Drawing.Size(235, 62);
             this.btnGuess.TabIndex = 9;
             this.btnGuess.Text = "Guess!";
             this.btnGuess.UseVisualStyleBackColor = true;
@@ -60,10 +58,10 @@
             // btnAnswer
             // 
             this.btnAnswer.Font = new System.Drawing.Font("微軟正黑體", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnAnswer.Location = new System.Drawing.Point(314, 156);
-            this.btnAnswer.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAnswer.Location = new System.Drawing.Point(419, 195);
+            this.btnAnswer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAnswer.Name = "btnAnswer";
-            this.btnAnswer.Size = new System.Drawing.Size(259, 50);
+            this.btnAnswer.Size = new System.Drawing.Size(345, 62);
             this.btnAnswer.TabIndex = 10;
             this.btnAnswer.Text = "Show Answer!";
             this.btnAnswer.UseVisualStyleBackColor = true;
@@ -71,19 +69,19 @@
             // 
             // HomeWork_BullsCows
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(658, 311);
+            this.ClientSize = new System.Drawing.Size(877, 389);
             this.Controls.Add(this.btnAnswer);
             this.Controls.Add(this.btnGuess);
             this.Controls.Add(this.labTitle);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomeWork_BullsCows";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "HomeWork_BullsCows";
             this.ResumeLayout(false);
             this.PerformLayout();
 
-
-           
         }
        
 

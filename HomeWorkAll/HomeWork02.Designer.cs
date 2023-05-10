@@ -167,6 +167,7 @@
             this.Controls.Add(this.labYear);
             this.Controls.Add(this.labAmount);
             this.Name = "HomeWork02";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "借款金額計算";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -15,6 +15,7 @@ namespace HomeWorkAll
         public HomeWork01()
         {
             InitializeComponent();
+           
         }
 
         private void btnHello_Click(object sender, EventArgs e)
